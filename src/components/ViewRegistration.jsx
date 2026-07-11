@@ -1,4 +1,5 @@
 import React,{useEffect} from 'react'
+import NavigationBar from './NavigationBar'
 import { useState } from 'react'
 import axios from 'axios'
 
@@ -22,6 +23,7 @@ const ViewRegistration = () => {
     
   return (
     <div>
+      <NavigationBar/>
       <div className="container mt-4">
         <h2 className="text-center mb-4">View All Registration</h2>
 
